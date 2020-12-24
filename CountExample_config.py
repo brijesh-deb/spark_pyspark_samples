@@ -4,7 +4,7 @@ import configparser
 if __name__ == "__main__":
     # get application name and master node url from config file
     config = configparser.ConfigParser()
-    config.read('config.ini')
+    config.read('config/config.ini')
     master_url = config['spark']['master_url']
     app_name = config['spark']['app_name']
     print(f"Creating Spark context to {master_url}...")
