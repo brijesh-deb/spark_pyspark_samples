@@ -18,3 +18,9 @@
     - *export PYSPARK_PYTHON=/usr/local/bin/python3.9*
     - *python3 CountExample_cluster.py*
 - The application will show up in Spark UI
+## Run program with dependent files
+- Here the driver program(CountExample_config.py) uses a configuration file(config/config.ini)
+- Pre-requisite: Install and start Spark
+- Use
+  - *spark-submit --py-files config/config.ini CountExample_config.py*
+- The application will show up in Spark UI
