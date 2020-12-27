@@ -17,3 +17,4 @@
   - Python3
     - *export PYSPARK_PYTHON=/usr/local/bin/python3.9*
     - *python3 CountExample_cluster.py*
+- The application will show up in Spark UI
