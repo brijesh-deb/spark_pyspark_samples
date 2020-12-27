@@ -16,4 +16,4 @@
     - *spark-submit CountExample_cluster.py*
   - Python3
     - *export PYSPARK_PYTHON=/usr/local/bin/python3.9*
-    - *python2 CountExample_cluster.py*
+    - *python3 CountExample_cluster.py*
